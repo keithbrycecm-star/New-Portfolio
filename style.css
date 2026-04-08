@@ -1,0 +1,109 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body {
+    background-image: url("download.jpg");
+    background-size: cover;        /* para full screen */
+    background-position: center;   /* center ang image */
+    background-repeat: no-repeat;  /* dili mag balik-balik */
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0059ff;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Sections (About, Skills, Project, Contact) */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Titles */
+section h2 {
+    color: #0389fe;
+    margin-bottom: 10px;
+}
+
+/* Skills list */
+ul {
+    padding-left: 20px;
+}
+
+/* Form */
+form input, 
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+input[type="submit"] {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
